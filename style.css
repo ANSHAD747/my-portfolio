@@ -9,9 +9,10 @@ a{
 }
 
 body{
-    background: white;
+    background: peachpuff;
     color: black;
 }
+
 
 header{
     background: black;
@@ -20,14 +21,76 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    height: 10%;
 }
 
 img{
-    width: 100%;
-    height: 100%;
+    width: 80%;
+    height: 80%;
     border-radius: 5%;
+    /* padding: 30px 30px 30px 30px;
     object-fit: cover;
-    border: 2px solid white;}
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease; */
+}
+
+/* #container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+} */
+h1,p,form{
+    margin: 20px 20px 20px 20px;
+}
+
+.intro{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(98, 121, 137, 0.365);
+    border-radius: 5%;
+    /* padding: 50px; */
+    overflow: hidden;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* .intro{
+    width: 600px;
+    height: 600px;
+    background-color: rgba(98, 121, 137, 0.365);
+    border-radius: 5%;
+    overflow: hidden;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+} */
+
+.image {
+    width: 600px;
+    height: 600px;
+    background-color: rgba(98, 121, 137, 0.365);
+    border-radius: 5%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    border: 2px solid white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+/* .image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    padding: 20px;
+    border: 2px solid #fff;
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+} */
 
 .nav{
     display: flex;
@@ -41,10 +104,10 @@ img{
     display: flex;
     gap: 20px;
     text-decoration: none;
-    ;
 }
 button{
     padding: 10px 20px;
+    width: 100px;
     background: rgb(104, 216, 236);
     color: black;
     border: none;
@@ -55,8 +118,10 @@ button{
 .footer{
     background: black;
     color: white;
-    padding: 20px 0;
+    margin-bottom: auto;
+    padding: 20px 20px 20px 20px;
     text-align: center;
+    height: 10%;
 }
 
 .main{
@@ -70,10 +135,12 @@ button{
 
 input{
     padding: 10px;
-    margin: 10px 0;
-    width: 100%;
+    /* margin: 10px 0;
+    width: 90%; */
     border: 1px solid #ccc;
     border-radius: 5px;
+    justify-content: center;
+    align-items: center;
 }
 
 #chat{
@@ -96,7 +163,7 @@ form{
     display: grid;
     gap: 15px;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-    margin: 20px 0;
+    margin: 20px;
 }
 .skill div{
     background: black;
@@ -114,3 +181,44 @@ form{
   border-radius: 6px;
   font-weight: bold;
 } */
+
+.skill div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+/* img :hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+button:hover{
+    background: rgb(72, 179, 194);
+    transform: scale(1.05);
+}
+
+.nav ul li:hover{
+    color: rgb(104, 216, 236);
+    transform: scale(1.1);
+}
+
+.nav h3:hover{
+    color: rgb(104, 216, 236);
+    transform: scale(1.1);
+}
+
+/* .main :hover{
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+} */
+
+.main div:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+}
+
+/* .intro:hover, .image:hover{
+    transform: scale(1.05);
+    box-shadow: 0 12px 25px rgba(0, 0, 0, 0.2);
+} */
+
