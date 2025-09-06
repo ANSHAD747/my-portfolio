@@ -44,8 +44,8 @@ h1,p,form{
 }
 
 .intro{
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(98, 121, 137, 0.365);
     border-radius: 5%;
     /* padding: 50px; */
@@ -67,8 +67,8 @@ h1,p,form{
 } */
 
 .image {
-    width: 600px;
-    height: 600px;
+    width: 500px;
+    height: 500px;
     background-color: rgba(98, 121, 137, 0.365);
     border-radius: 5%;
     display: flex;
